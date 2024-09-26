@@ -1,0 +1,62 @@
+@font-face {
+    font-family: 'poppinss';
+    src: url('/Fonts/Poppins.woff2') format('woff2');
+    font-weight: 700;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Montserratlight';
+    src: url('/Fonts/montserrat-light-webfont.woff2') format('woff2');
+    font-weight: 300;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Montserratmedium';
+    src: url('/Fonts/montserrat-medium-webfont.woff2') format('woff2');
+    font-weight: 400;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Montserratregular';
+    src: url('/Fonts/montserrat-regular-webfont.woff2') format('woff2');
+    font-weight: 500;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Montserratsm';
+    src: url('/Fonts/montserrat-semibold-webfont.woff2') format('woff2');
+    font-weight: 600;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'Courgettereg';
+    src: url('/Fonts/Courgette.woff2') format('woff2');
+    font-weight: 400;
+    font-style: normal;
+}
+.light-text {
+    font-family: 'Montserratlight';
+ }
+ 
+ .medium-text {
+     font-family: 'Montserratmedium';
+ }
+ 
+ .semibold-text {
+    font-family: 'Montserratsm';
+ }
+ 
+ .regular-text {
+   font-family: 'Montserratregular';
+ }
+ 
+ .bold-text {
+     font-family: 'poppinss';
+ }
+ .Courgette-text{
+    font-family: 'Courgettereg';
+ }

@@ -1,0 +1,630 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* ======================Media Queries======================== */
+@media screen and (max-width: 1600px) {
+    .c_reserv_div {
+        padding-left: 5%;
+        padding-right: 5%;
+    }
+
+    .reserv_img {
+        height: fit-content;
+    }
+}
+
+@media screen and (max-width: 1247px) {
+    .c_navbar {
+        padding-left: 5%;
+        padding-right: 5%;
+    }
+
+    .c_navbar ul {
+        display: none;
+    }
+
+    .c_sliderafter {
+        padding-left: 15px;
+        padding-right: 15px;
+    }
+
+    .c_sliderafter p {
+        margin-left: 0;
+    }
+
+    .c_Cards {
+        flex-direction: column;
+        width: 100%;
+        height: auto;
+        padding: 100px 0;
+    }
+
+    .c_Cards div {
+        width: 80%;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    .c_Cards h2,
+    p {
+        margin-left: 8vw;
+    }
+
+    .c_menu p,
+    a {
+        margin-left: 0;
+    }
+
+    .c_Cards a {
+        margin-left: 8vw;
+    }
+
+    .c_menu_1 {
+        flex-direction: column;
+
+    }
+
+    .c_menu_1_1 {
+        width: 80%;
+    }
+
+    .c_menu_1_1 div {
+        width: 80%;
+    }
+
+    .c_menu_1_1 div img {
+        width: 100%;
+        object-fit: cover;
+    }
+
+    .c_menu_1_2 {
+        flex-direction: row;
+        width: 80%;
+    }
+
+    .c_menu_1_2 div {
+        width: 80%;
+    }
+
+    .c_menu_1_2 img {
+        width: 100%;
+        object-fit: cover;
+    }
+
+    .c_menu_2 {
+        flex-direction: column;
+    }
+
+    .c_menu_2 div {
+        width: 80%;
+    }
+
+    .c_menu_2 div img {
+        width: 100%;
+        object-fit: cover;
+    }
+
+    .c_ucevents_card img {
+        width: 100%;
+    }
+
+    .c_ucevents_card_2nd>div {
+        gap: 0px;
+        margin-left: 0;
+    }
+
+    .c_ucevents_card_2nd>div p {
+        font-size: 1vw;
+        margin-left: 5px;
+    }
+
+    .c_ucevents_card_2nd p {
+        margin-left: 0;
+    }
+
+    .c_ucevents_card_2nd>div h2 {
+        font-size: 2vw;
+    }
+
+    .upcev_p {
+        display: none;
+    }
+
+    .upcoming_1p {
+        margin-left: 0;
+    }
+
+    .c_reserv_div {
+        gap: 5%;
+    }
+
+    .carousel_section_2 p {
+        margin-left: 0;
+    }
+
+    .new_p {
+        margin-left: 0;
+    }
+
+    .c_news_div {
+        padding-left: 20px;
+        padding-right: 20px;
+    }
+
+    .c_news_div p {
+        margin-left: 0;
+    }
+
+    .c_news_div div {
+        width: 355px;
+    }
+
+    .footer_main_div p {
+        margin-left: 0;
+    }
+
+    .footer_main_div {
+        padding-left: 5%;
+        padding-right: 5%;
+    }
+
+    .c_footer_bottom {
+        padding-left: 5%;
+        padding-right: 5%;
+    }
+
+    .c_footer_bottom p {
+        margin-left: 0;
+    }
+
+    /* ==========Menu page======== */
+    .c_menufold p {
+        margin-left: 0;
+    }
+
+    .c_menufInner,
+    .c_menus {
+        padding-left: 5%;
+        padding-right: 5%;
+    }
+
+    /* ==========Reservation Main======== */
+    .c_reservationmain p {
+        margin-left: 0;
+    }
+
+    .c_reservationmainform {
+        height: max-content;
+        padding: 50px 0;
+    }
+
+    .c_reservationmainlastsec {
+        padding-left: 5%;
+        padding-right: 5%;
+    }
+
+    /* ============Gallery============== */
+    .c_aboutDiv p {
+        margin-left: 0;
+    }
+
+    /* ============Testimonials================ */
+    .c_about-testimonial {
+        padding-left: 5%;
+        padding-right: 5%;
+    }
+
+    /* ================Conact=================== */
+    .c_contactpage p {
+        margin-left: 0;
+    }
+
+    /* =============Blog================ */
+    .c_blog p {
+        margin-left: 0;
+    }
+
+    .c_blog_inner {
+        padding-left: 5%;
+        padding-right: 5%;
+    }
+    /* ========togle menu========== */
+.ctoggle p{
+    margin-left: 0;
+}
+}
+
+@media screen and (max-width: 1100px) {
+    .c_reserv_div {
+        flex-direction: column-reverse;
+        align-items: center;
+    }
+
+    .reserv_img {
+        width: 80%;
+    }
+
+    .c_news_div {
+        flex-direction: column;
+        width: 100%;
+
+    }
+
+    .c_news_div div {
+        width: 100%;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .c_news_div div img {
+        width: 100%;
+    }
+
+    .c_special p {
+        margin-left: 0;
+    }
+
+}
+
+@media screen and (max-width: 974px) {
+    .c_navbar ul li a {
+        font-size: 10px;
+        gap: 5px;
+    }
+
+    .c_menu_1_2 {
+        width: 100%;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .c_menu_1_2 div {
+        width: 80%;
+    }
+
+    .c_menu_1_2 div img {
+        width: 100%;
+        object-fit: cover;
+    }
+
+    .c_contactpage_location {
+        padding-left: 5%;
+        padding-right: 5%;
+    }
+
+    .c_blog_inner {
+        flex-direction: column;
+    }
+
+    .c_blog_inner>div {
+        width: 100%;
+    }
+
+    .c_blog_search {
+        width: 300px;
+    }
+}
+
+@media screen and (max-width: 876px) {
+    .c_navbar ul li a {
+        display: none;
+    }
+
+    .carousel_section p {
+        font-size: 6vw;
+
+    }
+
+    .carousel_section h2 {
+        font-size: 10vw;
+
+    }
+
+    .carousel_section button {
+        font-size: 2vw;
+
+    }
+
+    .c_ucevents_card {
+        flex-direction: column;
+        width: 99vw;
+        height: max-content;
+        align-items: center;
+        padding-top: 100px;
+    }
+
+    .c_ucevents_card div {
+        width: 70%;
+        height: 300px;
+    }
+
+    .c_ucevents_card_1 {
+        width: 100%;
+        height: 50%;
+        object-fit: cover;
+    }
+
+    .c_ucevents_card_2nd {
+        width: 100%;
+        height: 50%;
+        object-fit: cover;
+        margin-top: 100px;
+    }
+
+    .c_ucevents_card_2nd p {
+        font-size: 2vw;
+    }
+    /* =============menus============ */
+    .c_menus {
+        display: block;
+    }
+
+    /* ============about============== */
+    .c_aboutP {
+        width: 80%;
+    }
+
+    .c_sliderafter.c_aboutrecipe {
+        height: max-content;
+        padding-top: 50px;
+        padding-bottom: 50px;
+    }
+
+    .recipep,
+    .restaurantp {
+        font-size: 5vw;
+    }
+
+    /* ==============Testimonial================ */
+    .c_about-testimonial div {
+        padding-bottom: 20px;
+    }
+
+    .c_about-testimonial {
+        flex-direction: column;
+        gap: 100px;
+        padding-left: 100px;
+        padding-right: 100px;
+    }
+
+    .c_about-testimonial div {
+        padding-bottom: 50px;
+    }
+
+}
+
+@media screen and (max-width: 768px) {
+    .c_sliderafter {
+        flex-direction: column;
+        padding: 80px 0;
+    }
+
+    .c_sliderp {
+        width: 75vw;
+
+    }
+
+    .c_sliderafter img {
+        width: 100vw;
+    }
+
+    .c_menu_1_1 {
+        width: 100%;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .c_menu_1_1 div {
+        width: 80%;
+    }
+
+    .c_menu_1_1 div img {
+        width: 100%;
+        object-fit: cover;
+    }
+
+    .c_special {
+        flex-direction: column;
+    }
+
+    .c_specialinnerdiv {
+        width: 60%;
+    }
+
+    .footer_main_div {
+        flex-direction: column;
+        height: max-content;
+    }
+
+    .c_gallery {
+        width: 80%;
+    }
+
+    .c_gallery img {
+        width: 30%;
+        height: 50%;
+        object-fit: cover;
+    }
+
+    /* ==========Menu page======== */
+    .c_menufInner {
+        display: block;
+    }
+
+    .menumainH {
+        margin-top: 40px;
+    }
+
+    .c_reservationmainlastsec {
+        flex-direction: column;
+    }
+
+    /* =============gallery=============== */
+    .c_gallerylinks a {
+        font-size: 2vw;
+    }
+
+    .c_galler {
+        flex-direction: column;
+    }
+
+    /* ===========Contact================ */
+    .c_contactpage_inputsdiv {
+        width: 90%;
+
+    }
+
+    .c_contactpage_location {
+        flex-direction: column;
+    }
+
+    .c_contactpage_textarea {
+        width: 90%;
+    }
+
+    .c_blog_inner h2 {
+        font-size: 4vw;
+    }
+
+}
+
+@media screen and (max-width: 516px) {
+    .c_navbar>div img {
+        width: 50px;
+    }
+
+    .n_icons {
+        font-size: 20px;
+    }
+
+    .reserv_inp_div {
+        padding: 0 10%;
+        display: block;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .reserv_inp_div div {
+        width: 80%;
+        margin: 0 auto;
+    }
+
+    .c_reserv_div {
+        padding-bottom: 50px;
+    }
+
+    .bookt_p {
+        font-size: 8vw;
+    }
+
+    .p_vid h2 {
+        font-size: 10vw;
+    }
+
+    .c_sliderafter img {
+        width: 100%;
+    }
+
+    .c_our_menu a {
+        font-size: 15px;
+        width: max-content;
+        padding: 8px 14px;
+    }
+
+    .c_our_menu h2 {
+        font-size: 10vw;
+    }
+
+    /* ==========Menu page======== */
+
+    .c_menufoldslider h2,
+    .c_menufoldlunch h2,
+    .c_galleryh2,
+    .c_aboutH2,
+    .c_contactH2 {
+        font-size: 8vw;
+    }
+
+    /* ==========Reservation Main======== */
+    .c_reservationinputdiv {
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .c_reservationinputdiv div,
+    .c_reservationmainform {
+        width: 80vw;
+        margin: 0 auto;
+    }
+
+    /* ==========about============ */
+    .c_aboutimg {
+        width: 90%;
+    }
+
+    .c_about-testimonial {
+        flex-direction: column;
+        gap: 100px;
+        padding-left: 20px;
+        padding-right: 20px;
+    }
+
+    /* =======Contact============ */
+    .c_contactpage_inputsdiv {
+        flex-direction: column;
+        width: 90%;
+    }
+
+    .c_contactpage_inputsdiv div {
+        width: 90%;
+    }
+
+    .c_contactpage_textarea {
+        width: 80%;
+    }
+
+    .c_contactpage iframe {
+        width: 99%;
+    }
+
+    .cblogp {
+        font-size: 13px;
+    }
+}
+
+@media screen and (max-width: 452px) {
+    .p_palace {
+        width: max-content;
+        font-size: 10vw;
+    }
+
+    .c_footer_bottom p {
+        font-size: 10px;
+    }
+
+    .c_Cards p {
+        width: 70vw;
+    }
+
+    .c_news_div p {
+        width: 70vw;
+    }
+    .c_blog_search{
+        width: 100%;
+    }
+    .cblogSearch{
+        padding-left: 5px;
+        border-left: 0;
+    }
+    .ctoggle{
+        width: 100%;
+    }
+    .ctoggle p{
+        padding: 8px 12px;
+    }
+    .c_reservationmainH2 {
+        font-size: 8vw;
+    }
+}
